@@ -1,0 +1,14 @@
+query postgres lat, lon, convert to dggs and dump to mongo
+dell precision, 4GB RAM, 2.5GHz i5 processor
+time from start of pg query and end of last record dump
+
+amount, ISEA4T model, ISEA3H
+
+10; 0.310000181198; 0.496000051498
+100; 0.473999977112; 0.725999832153
+1000; 1.29600000381; 1.30900001526
+10000; 10.4409999847; 9.95599985123
+100000; 102.332999945; 92.2829999924
+1000000; 986.266000032; 950.461000204
+
+small area - uk only - clustered cells so 3H has fewer calculations.
